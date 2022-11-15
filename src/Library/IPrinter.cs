@@ -3,6 +3,7 @@ namespace Full_GRASP_And_SOLID
 {
     public interface IPrinter
     {
-         void PrintRecipe(Recipe recipe);
+        //Cambio Recipe por IRecipeContent para aplicar DIP
+         void PrintRecipe(IRecipeContent recipe);
     }
 }
